@@ -1,0 +1,13 @@
+<body>
+    {% if maths %}
+    {% for math in maths %}
+        {{ math }}    <br />
+        {{ math.subject }} <br />
+        {{ math.content }} <br />
+    {% endfor %}
+    {% else %}
+    <tr>
+        <td colspan="3">질문이 없습니다.</td>
+    </tr>
+    {% endif %}
+</body>
