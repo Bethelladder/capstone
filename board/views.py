@@ -13,3 +13,6 @@ def index(request):
 
 def mp4(request):
     return render(request, 'board/mp4.html')
+
+def aws(request):
+    return render(request, 'board/awsimage.html')
